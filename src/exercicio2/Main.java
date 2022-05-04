@@ -5,17 +5,17 @@ public class Main {
 		
 		Fila fila = new Fila();
 		
-		// inserção dos dados na fila
+		// inserï¿½ï¿½o dos dados na fila
 		fila.enfileirar(new Motorista("Selmini", "ABC-4546"));
-		fila.enfileirar(new Motorista("Flávio", "BYZ-7576"));
+		fila.enfileirar(new Motorista("Flavio", "BYZ-7576"));
 		fila.enfileirar(new Motorista("Surjan", "BBB-1234"));
 		fila.enfileirar(new Motorista("Surian", "DDD-7777"));
 		
-		// remoção de alguns motoristas da fila
+		// remoï¿½ï¿½o de alguns motoristas da fila
 		fila.desenfileirar();
 		fila.desenfileirar();
 		
-		// impressão dos dados dos motoristas que ainda estão na fila
+		// impressï¿½o dos dados dos motoristas que ainda estï¿½o na fila
 		fila.mostrarDados();		
 
 	}

@@ -5,15 +5,17 @@ public class Main {
 		
 		Lista lista = new Lista();
 		
-		// inserção de objetos na lista
+		// inserï¿½ï¿½o de objetos na lista
+		
 		lista.inserir(10, "verde");
+		lista.inserir(4, "amarelo");
 		lista.inserir(11, "verde");
 		lista.inserir(5, "amarelo");
-		lista.inserir(12, "verde");
 		lista.inserir(6, "amarelo");
 		
-		// impressão dos objetos inseridos na lista
 		
-
+		// impressï¿½o dos objetos inseridos na lista
+		
+		lista.imprimir();
 	}
 }
